@@ -28,7 +28,7 @@
     <!-- DataTables CSS -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
     @yield('styles')
-    <title>Laz Store - @yield('title')</title>
+    <title>Laz Store Admin - @yield('title')</title>
 </head>
 
 <body class="bg-light">
