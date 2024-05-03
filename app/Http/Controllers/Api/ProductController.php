@@ -99,7 +99,7 @@ class ProductController extends Controller
         }
 
         return response()->json([
-            'products' => $products->latest()->paginate(1)
+            'products' => $products->latest()->paginate(6)
         ]);
 
      }
